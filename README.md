@@ -1,2 +1,14 @@
-# MicroserviceArchitecture-Study-Node.js
-Created with CodeSandbox
+> 길벗사 (Node.js 마이크로서비스 코딩 공작소)
+
+# microservice architecture (MSA)
+
+- '일체형 아키텍처'의 반대개념
+- 작은 서비스들의 결합을 통해 애플리케이션을 개발하는 방법
+- 바운디드 컨텍스트로 느슨하게 결합된 서비스 지향 아키텍처
+- 전체 서비스가 동시에 업데이트되어야 한다면 느슨한 결합이 아님
+- 주변 서비스들에 대해 알아야 할 것이 너무 많다면 바운디드 컨텍스트가 아님
+- 애플리케이션의 구성요소를 작은 단위로 쪼개 각 요소를 하나의 독립적인 앱으로 만들고, 요소들을 API로 조합해 애플리케이션으로 만드는 아키텍처
+
+
+![마이크로](https://user-images.githubusercontent.com/32234263/58227416-b8f8e900-7d65-11e9-91cd-c4a9054bf120.png)
+
