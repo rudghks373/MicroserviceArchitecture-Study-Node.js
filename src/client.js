@@ -37,12 +37,12 @@ class tcpClient {
     });
 
     this.client.on("close", () => {
-      // ➍ 접속 종료 처리
+      // 4 접속 종료 처리
       if (this.onEnd) this.onEnd(this.options);
     });
 
     this.client.on("error", err => {
-      // ➎ 에러 발생 처리
+      // 5 에러 발생 처리
       if (this.onError) this.onError(this.options, err);
     });
   }
